@@ -1,0 +1,60 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Paradero {
+  id          String   @id @default(cuid())
+  gtfsStopId  String   @unique @map("gtfs_stop_id")
+  nombre      String
+  lat         Float
+  lng         Float
+  comuna      String
+  resenas     Resena[]
+
+  @@index([lat, lng])
+  @@map("paraderos")
+}
+
+model Resena {
+  id            String   @id @default(cuid())
+  paraderoId    String   @map("paradero_id")
+  texto         String
+  rating        Int
+  reportesAbuso Int      @default(0) @map("reportes_abuso")
+  oculta        Boolean  @default(false)
+  creadoEn      DateTime @default(now()) @map("creado_en")
+
+  paradero      Paradero @relation(fields: [paraderoId], references: [id], onDelete: Cascade)
+
+  @@index([paraderoId])
+  @@index([oculta])
+  @@map("resenas")
+}
+
+enum TipoIncidencia {
+  ATRASO
+  FISCALIZADOR
+  ZONA_INSEGURA
+  OTRO
+}
+
+model Incidencia {
+  id          String         @id @default(cuid())
+  tipo        TipoIncidencia
+  descripcion String
+  lat         Float
+  lng         Float
+  horaInicio  DateTime?      @map("hora_inicio")
+  horaFin     DateTime?      @map("hora_fin")
+  expiraAt    DateTime       @map("expira_at")
+  creadoEn    DateTime       @default(now()) @map("creado_en")
+
+  @@index([expiraAt])
+  @@index([lat, lng])
+  @@map("incidencias")
+}
