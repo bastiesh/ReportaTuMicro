@@ -72,7 +72,8 @@ export default function MapaCliente() {
         ref={mapRef}
         center={center} 
         zoom={13}
-        style={{ height: "100%", width: "100%" }} 
+        style={{ height: "100%", width: "100%" }}
+        zoomControl={false}
       >
         <TileLayer 
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
