@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useMapaStore } from "@/stores/mapaStore";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
@@ -22,6 +22,19 @@ export default function FormularioIncidencia() {
   const [reportLat, setReportLat] = useState(centro.lat);
   const [reportLng, setReportLng] = useState(centro.lng);
   const [enviando, setEnviando] = useState(false);
+
+  // Automatically use current location when available
+  useEffect(() => {
+    if (lat && lng) {
+      setReportLat(lat);
+      setReportLng(lng);
+    }
+  }, [lat, lng]);
+
+  // Get location on mount
+  useEffect(() => {
+    obtenerUbicacion();
+  }, []);
 
   const handleUbicacion = () => {
     obtenerUbicacion();

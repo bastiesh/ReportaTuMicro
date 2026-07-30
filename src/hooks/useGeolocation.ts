@@ -1,5 +1,5 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 
 interface GeoState {
   lat: number | null;
@@ -37,8 +37,35 @@ export function useGeolocation() {
           error: err.code === 1 ? "Permiso denegado" : "Error al obtener ubicación",
         }));
       },
-      { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
+      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
     );
+  }, []);
+
+  // Watch for location changes
+  useEffect(() => {
+    if (!navigator.geolocation) return;
+    
+    const watchId = navigator.geolocation.watchPosition(
+      (pos) => {
+        setState({
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+          loading: false,
+          error: null,
+          granted: true,
+        });
+      },
+      (err) => {
+        setState((s) => ({
+          ...s,
+          loading: false,
+          error: err.code === 1 ? "Permiso denegado" : "Error al obtener ubicación",
+        }));
+      },
+      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+    );
+
+    return () => navigator.geolocation.clearWatch(watchId);
   }, []);
 
   return { ...state, obtenerUbicacion };
