@@ -6,25 +6,22 @@ export function FiltrosMapa() {
   const { filtros, setFiltros, modoOscuro, toggleModoOscuro } = useMapaStore();
 
   const toggleParaderos = () => {
-    console.log("Toggle paraderos:", !filtros.mostrarParaderos);
     setFiltros({ mostrarParaderos: !filtros.mostrarParaderos });
   };
 
   const toggleIncidencias = () => {
-    console.log("Toggle incidencias:", !filtros.mostrarIncidencias);
     setFiltros({ mostrarIncidencias: !filtros.mostrarIncidencias });
   };
 
   const toggleDarkMode = () => {
-    console.log("Toggle dark mode:", !modoOscuro);
     toggleModoOscuro();
   };
 
   return (
-    <div className="absolute top-14 left-3 z-[10000] bg-white/95 dark:bg-gray-900/95 backdrop-blur-md rounded-2xl shadow-xl p-3.5 min-w-[170px] border border-gray-100 dark:border-gray-800 pointer-events-auto" style={{ touchAction: 'manipulation' }}>
+    <div className="absolute top-14 left-3 z-[10000] bg-white/95 dark:bg-gray-900/95 backdrop-blur-md rounded-2xl shadow-xl p-3.5 min-w-[170px] border border-gray-100 dark:border-gray-800 pointer-events-auto">
       <p className="text-[10px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2.5">Capas</p>
       <button
-        onClick={(e) => { e.stopPropagation(); toggleParaderos(); }}
+        onClick={toggleParaderos}
         className={`w-full flex items-center justify-start gap-2.5 mb-1.5 px-3 py-1.5 text-xs rounded-lg font-semibold transition-all duration-200 ${
           filtros.mostrarParaderos 
             ? "bg-primary-600 text-white shadow-md shadow-primary-600/20" 
@@ -35,7 +32,7 @@ export function FiltrosMapa() {
         <Bus size={13} /> Paraderos
       </button>
       <button
-        onClick={(e) => { e.stopPropagation(); toggleIncidencias(); }}
+        onClick={toggleIncidencias}
         className={`w-full flex items-center justify-start gap-2.5 px-3 py-1.5 text-xs rounded-lg font-semibold transition-all duration-200 ${
           filtros.mostrarIncidencias 
             ? "bg-primary-600 text-white shadow-md shadow-primary-600/20" 
@@ -47,7 +44,7 @@ export function FiltrosMapa() {
       </button>
       <div className="border-t border-gray-100 dark:border-gray-800 my-2.5" />
       <button
-        onClick={(e) => { e.stopPropagation(); toggleDarkMode(); }}
+        onClick={toggleDarkMode}
         className="w-full flex items-center justify-start gap-2.5 px-3 py-1.5 text-xs rounded-lg font-semibold transition-all duration-200 bg-transparent text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
       >
         {modoOscuro ? <Sun size={13} /> : <Moon size={13} />}
