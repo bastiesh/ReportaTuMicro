@@ -164,7 +164,9 @@ function ParaderosLayer() {
           }
         })
         .catch((error) => {
-          console.error('Error fetching paraderos:', error);
+          if (error.name !== 'AbortError') {
+            console.error('Error fetching paraderos:', error);
+          }
         })
         .finally(() => setLoading(false));
     }, 250);
@@ -212,7 +214,9 @@ function IncidenciasLayer() {
           }
         })
         .catch((error) => {
-          console.error('Error fetching incidencias:', error);
+          if (error.name !== 'AbortError') {
+            console.error('Error fetching incidencias:', error);
+          }
         });
     }, 250);
 
