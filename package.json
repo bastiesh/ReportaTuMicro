@@ -12,7 +12,7 @@
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",
     "postinstall": "prisma generate",
-    "postbuild": "prisma db push --skip-generate"
+    "postbuild": "prisma db push --skip-generate && npm run db:seed"
   },
   "dependencies": {
     "next": "^15.1.0",
