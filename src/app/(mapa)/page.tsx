@@ -6,8 +6,8 @@ import { LeyendaMapa } from "@/components/mapa/LeyendaMapa";
 import { Button } from "@/components/ui/button";
 import { Plus, X } from "lucide-react";
 import dynamic from "next/dynamic";
-import MapaCliente from "@/components/mapa/MapaCliente";
 
+const MapaCliente = dynamic(() => import("@/components/mapa/MapaCliente"), { ssr: false });
 const FormularioIncidencia = dynamic(() => import("@/components/reportes/FormularioIncidencia"), { ssr: false });
 
 export default function HomePage() {
