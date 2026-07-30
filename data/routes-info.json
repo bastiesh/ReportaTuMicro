@@ -1,0 +1,3402 @@
+{
+  "101": {
+    "id": "101",
+    "shortName": "101",
+    "longName": "Recoleta - Cerrillos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "102": {
+    "id": "102",
+    "shortName": "102",
+    "longName": "(M) Las Rejas - San Carlos Oriente",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "103": {
+    "id": "103",
+    "shortName": "103",
+    "longName": "Providencia - San Luis De Macul",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "104": {
+    "id": "104",
+    "shortName": "104",
+    "longName": "Providencia - Camilo Henriquez",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "105": {
+    "id": "105",
+    "shortName": "105",
+    "longName": "Renca - Lo Espejo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "106": {
+    "id": "106",
+    "shortName": "106",
+    "longName": "Nueva San Martin - Peñalolen",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "107": {
+    "id": "107",
+    "shortName": "107",
+    "longName": "Ciudad Empresarial - Av. Departamental",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "108": {
+    "id": "108",
+    "shortName": "108",
+    "longName": "Maipu - La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "109": {
+    "id": "109",
+    "shortName": "109",
+    "longName": "Renca - Maipu",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "110": {
+    "id": "110",
+    "shortName": "110",
+    "longName": "Renca - Maipu",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "111": {
+    "id": "111",
+    "shortName": "111",
+    "longName": "(M) Pajaritos - Ciudad Satelite",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "113": {
+    "id": "113",
+    "shortName": "113",
+    "longName": "Ciudad Satelite - (M) Los Heroes",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "114": {
+    "id": "114",
+    "shortName": "114",
+    "longName": "(M) Ñuñoa - Camilo Henriquez",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "115": {
+    "id": "115",
+    "shortName": "115",
+    "longName": "Villa El Abrazo -  (M) Los Heroes",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "116": {
+    "id": "116",
+    "shortName": "116",
+    "longName": "Huechuraba - Centro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "117": {
+    "id": "117",
+    "shortName": "117",
+    "longName": "(M) Vespucio Norte - Departamental Oriente",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "118": {
+    "id": "118",
+    "shortName": "118",
+    "longName": "Maipu - La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "119": {
+    "id": "119",
+    "shortName": "119",
+    "longName": "Mapocho - Lo Espejo",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "120": {
+    "id": "120",
+    "shortName": "120",
+    "longName": "Renca - (M) La Cisterna",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "121": {
+    "id": "121",
+    "shortName": "121",
+    "longName": "Mapocho - Lo Espejo",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "124": {
+    "id": "124",
+    "shortName": "124",
+    "longName": "(M) Macul - Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "125": {
+    "id": "125",
+    "shortName": "125",
+    "longName": "(M) U. De Chile - Lo Espejo",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "126": {
+    "id": "126",
+    "shortName": "126",
+    "longName": "La Higuera - (M) Manuel Montt",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "201": {
+    "id": "201",
+    "shortName": "201",
+    "longName": "Mall Plaza Norte - San Bernardo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "203": {
+    "id": "203",
+    "shortName": "203",
+    "longName": "Av. Recoleta - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "204": {
+    "id": "204",
+    "shortName": "204",
+    "longName": "Alameda - Pie Andino",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "205": {
+    "id": "205",
+    "shortName": "205",
+    "longName": "Santiago - Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "206": {
+    "id": "206",
+    "shortName": "206",
+    "longName": "Centro - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "207": {
+    "id": "207",
+    "shortName": "207",
+    "longName": "Mapocho - Av. Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "208": {
+    "id": "208",
+    "shortName": "208",
+    "longName": "Huechuraba - Centro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "209": {
+    "id": "209",
+    "shortName": "209",
+    "longName": "Alameda - El Volcan",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "210": {
+    "id": "210",
+    "shortName": "210",
+    "longName": "Estacion Central - Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "211": {
+    "id": "211",
+    "shortName": "211",
+    "longName": "La Florida - Nos",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "212": {
+    "id": "212",
+    "shortName": "212",
+    "longName": "Mall Costanera Center - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "214": {
+    "id": "214",
+    "shortName": "214",
+    "longName": "Santa Olga - Los Libertadores",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "216": {
+    "id": "216",
+    "shortName": "216",
+    "longName": "Pablo De Rokha - Vitacura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "223": {
+    "id": "223",
+    "shortName": "223",
+    "longName": "Santiago - Lo Espejo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "224": {
+    "id": "224",
+    "shortName": "224",
+    "longName": "Ñuñoa - Gabriela",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "225": {
+    "id": "225",
+    "shortName": "225",
+    "longName": "Las Condes - Villa Los Aromos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "226": {
+    "id": "226",
+    "shortName": "226",
+    "longName": "Centro - Nonato Coo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "227": {
+    "id": "227",
+    "shortName": "227",
+    "longName": "La Reina - Av. Lo Ovalle",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "228": {
+    "id": "228",
+    "shortName": "228",
+    "longName": "(M) La Cisterna - Estacion San Bernardo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "229": {
+    "id": "229",
+    "shortName": "229",
+    "longName": "(M) La Moneda - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "230": {
+    "id": "230",
+    "shortName": "230",
+    "longName": "Los Libertadores - Centro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "233": {
+    "id": "233",
+    "shortName": "233",
+    "longName": "El Castillo - (M) B. De La Florida",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "234": {
+    "id": "234",
+    "shortName": "234",
+    "longName": "Alameda - Ejercito Libertador",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "244": {
+    "id": "244",
+    "shortName": "244",
+    "longName": "La Foresta - Hospital Eloisa Diaz",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "245": {
+    "id": "245",
+    "shortName": "245",
+    "longName": "Puente Alto - (M) Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "271": {
+    "id": "271",
+    "shortName": "271",
+    "longName": "Santiago - San Bernardo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "272": {
+    "id": "272",
+    "shortName": "272",
+    "longName": "Los Libertadores - Ciudad Empresarial",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "282": {
+    "id": "282",
+    "shortName": "282",
+    "longName": "Nos - (M) Plaza Puente Alto",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "286": {
+    "id": "286",
+    "shortName": "286",
+    "longName": "La Pintana - Mall Alto Las Condes",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "301": {
+    "id": "301",
+    "shortName": "301",
+    "longName": "Juan Antonio Rios - Angelmo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "302": {
+    "id": "302",
+    "shortName": "302",
+    "longName": "(M) Santa Ana - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "303": {
+    "id": "303",
+    "shortName": "303",
+    "longName": "Quilicura - Plaza Italia",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "306": {
+    "id": "306",
+    "shortName": "306",
+    "longName": "Juan Antonio Rios - Pob. Las Turbinas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "307": {
+    "id": "307",
+    "shortName": "307",
+    "longName": "Lo Marcoleta - Plaza Italia",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "308": {
+    "id": "308",
+    "shortName": "308",
+    "longName": "Lo Marcoleta - Mapocho",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "314": {
+    "id": "314",
+    "shortName": "314",
+    "longName": "Lo Marcoleta - Plaza Italia",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "320": {
+    "id": "320",
+    "shortName": "320",
+    "longName": "(M) Franklin - Maria Angelica",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "321": {
+    "id": "321",
+    "shortName": "321",
+    "longName": "(M) Lo Ovalle - Lo Sierra",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "322": {
+    "id": "322",
+    "shortName": "322",
+    "longName": "(M) Bellavista De La Florida - Jardin Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "323": {
+    "id": "323",
+    "shortName": "323",
+    "longName": "(M) Bellavista De La Florida - La Loma",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "325": {
+    "id": "325",
+    "shortName": "325",
+    "longName": "Gabriela - (M) Irarrazaval",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "329": {
+    "id": "329",
+    "shortName": "329",
+    "longName": "Mall Plaza Oeste - Mall Florida Center",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "345": {
+    "id": "345",
+    "shortName": "345",
+    "longName": "Lo Espejo - Alameda",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "348": {
+    "id": "348",
+    "shortName": "348",
+    "longName": "Rinconada - (M) Lo Ovalle",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "385": {
+    "id": "385",
+    "shortName": "385",
+    "longName": "Villa Francia - Florida Center",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "401": {
+    "id": "401",
+    "shortName": "401",
+    "longName": "Maipu - Las Condes",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "402": {
+    "id": "402",
+    "shortName": "402",
+    "longName": "Pudahuel - Centro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "403": {
+    "id": "403",
+    "shortName": "403",
+    "longName": "(M) Santa Ana - La Reina",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "404": {
+    "id": "404",
+    "shortName": "404",
+    "longName": "El Descanso - Mapocho",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "405": {
+    "id": "405",
+    "shortName": "405",
+    "longName": "Maipu - Cantagallo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "406": {
+    "id": "406",
+    "shortName": "406",
+    "longName": "Pudahuel - Cantagallo",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "407": {
+    "id": "407",
+    "shortName": "407",
+    "longName": "Enea - Las Condes",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "408": {
+    "id": "408",
+    "shortName": "408",
+    "longName": "Renca - Mapocho",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "409": {
+    "id": "409",
+    "shortName": "409",
+    "longName": "Mapocho - Plaza San Enrique",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "410": {
+    "id": "410",
+    "shortName": "410",
+    "longName": "Renca - Providencia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "411": {
+    "id": "411",
+    "shortName": "411",
+    "longName": "Providencia - Plaza San Enrique",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "412": {
+    "id": "412",
+    "shortName": "412",
+    "longName": "Enea - La Reina",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "418": {
+    "id": "418",
+    "shortName": "418",
+    "longName": "Enea - Av. Tobalaba",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "419": {
+    "id": "419",
+    "shortName": "419",
+    "longName": "Villa Los Heroes - Plaza Italia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "420": {
+    "id": "420",
+    "shortName": "420",
+    "longName": "Av. Tobalaba - (M) Escuela Militar",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "421": {
+    "id": "421",
+    "shortName": "421",
+    "longName": "Maipu - San Carlos De Apoquindo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "422": {
+    "id": "422",
+    "shortName": "422",
+    "longName": "Pob. Teniente Merino -  La Reina",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "423": {
+    "id": "423",
+    "shortName": "423",
+    "longName": "Nueva San Martin - Plaza Italia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "424": {
+    "id": "424",
+    "shortName": "424",
+    "longName": "Pudahuel Sur - (M) U. De Chile",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "425": {
+    "id": "425",
+    "shortName": "425",
+    "longName": "Rigoberto Jara - Lo Hermida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "426": {
+    "id": "426",
+    "shortName": "426",
+    "longName": "Pudahuel - La Dehesa",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "428": {
+    "id": "428",
+    "shortName": "428",
+    "longName": "(M) Los Libertadores - (M) La Cisterna",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "429": {
+    "id": "429",
+    "shortName": "429",
+    "longName": "Lo Echevers - Lo Hermida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "430": {
+    "id": "430",
+    "shortName": "430",
+    "longName": "Quilicura - La Dehesa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "435": {
+    "id": "435",
+    "shortName": "435",
+    "longName": "Quilicura - Vitacura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "444": {
+    "id": "444",
+    "shortName": "444",
+    "longName": "Intermodal Aeropuerto - (M) La Cisterna",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "481": {
+    "id": "481",
+    "shortName": "481",
+    "longName": "Plaza Italia - Avenida Portales",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "486": {
+    "id": "486",
+    "shortName": "486",
+    "longName": "Enea - (M) San Pablo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "501": {
+    "id": "501",
+    "shortName": "501",
+    "longName": "(M) Parque Bustamante - Fleming",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "502": {
+    "id": "502",
+    "shortName": "502",
+    "longName": "Cerro Navia - Cantagallo",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "503": {
+    "id": "503",
+    "shortName": "503",
+    "longName": "Av. La Estrella - Vital Apoquindo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "504": {
+    "id": "504",
+    "shortName": "504",
+    "longName": "El Tranque - Hospital Dipreca",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "505": {
+    "id": "505",
+    "shortName": "505",
+    "longName": "Cerro Navia - Las Parcelas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "506": {
+    "id": "506",
+    "shortName": "506",
+    "longName": "Maipu - Peñalolen",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "507": {
+    "id": "507",
+    "shortName": "507",
+    "longName": "Enea - Av Grecia",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "508": {
+    "id": "508",
+    "shortName": "508",
+    "longName": "Av. Mapocho - Av. Las Torres",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "509": {
+    "id": "509",
+    "shortName": "509",
+    "longName": "Maipu - Mapocho",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "510": {
+    "id": "510",
+    "shortName": "510",
+    "longName": "Pudahuel Sur - Rio Claro",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "511": {
+    "id": "511",
+    "shortName": "511",
+    "longName": "Cerro Navia - Peñalolen",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "513": {
+    "id": "513",
+    "shortName": "513",
+    "longName": "El Montijo - Jose Arrieta",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "514": {
+    "id": "514",
+    "shortName": "514",
+    "longName": "Enea - San Luis De Macul",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "516": {
+    "id": "516",
+    "shortName": "516",
+    "longName": "Pudahuel Sur - Las Parcelas",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "517": {
+    "id": "517",
+    "shortName": "517",
+    "longName": "J. J. Pérez - Peñalolén",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "518": {
+    "id": "518",
+    "shortName": "518",
+    "longName": "J.J. Perez - Bilbao",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "519": {
+    "id": "519",
+    "shortName": "519",
+    "longName": "(M) Pajaritos - Av. Grecia",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "542": {
+    "id": "542",
+    "shortName": "542",
+    "longName": "Cerro Navia - Cantagallo",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "555": {
+    "id": "555",
+    "shortName": "555",
+    "longName": "Intermodal Aeropuerto - (M) Pajaritos",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "712": {
+    "id": "712",
+    "shortName": "712",
+    "longName": "Puente Alto - La Piramide",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "722": {
+    "id": "722",
+    "shortName": "722",
+    "longName": "Gonel - Av. Colon",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "105c": {
+    "id": "105c",
+    "shortName": "105c",
+    "longName": "Lo Valledor - Lo Espejo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "107c": {
+    "id": "107c",
+    "shortName": "107c",
+    "longName": "Ciudad Empresarial - Plaza Renca",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "109N": {
+    "id": "109N",
+    "shortName": "109n",
+    "longName": "Plaza Italia - Maipu",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "110c": {
+    "id": "110c",
+    "shortName": "110c",
+    "longName": "Lo Echevers - Pudahuel Sur",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "113c": {
+    "id": "113c",
+    "shortName": "113c",
+    "longName": "(M) Cerrillos - Ciudad Satelite",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "113e": {
+    "id": "113e",
+    "shortName": "113e",
+    "longName": "Ciudad Satelite - (M) Los Heroes",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "115c": {
+    "id": "115c",
+    "shortName": "115c",
+    "longName": "Villa El Abrazo -  (M) Cerrillos",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "117c": {
+    "id": "117c",
+    "shortName": "117c",
+    "longName": "Huechuraba - Providencia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "201e": {
+    "id": "201e",
+    "shortName": "201e",
+    "longName": "(M) Santa Ana - San Bernardo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "203c": {
+    "id": "203c",
+    "shortName": "203c",
+    "longName": "La Pintana - La Granja",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "203e": {
+    "id": "203e",
+    "shortName": "203e",
+    "longName": "Centro - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "203N": {
+    "id": "203N",
+    "shortName": "203n",
+    "longName": "Huechuraba - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "204N": {
+    "id": "204N",
+    "shortName": "204n",
+    "longName": "Alameda - Pie Andino",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "206c": {
+    "id": "206c",
+    "shortName": "206c",
+    "longName": "(M) Bio Bio - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "207c": {
+    "id": "207c",
+    "shortName": "207c",
+    "longName": "El Retiro - (M) Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "207e": {
+    "id": "207e",
+    "shortName": "207e",
+    "longName": "Mapocho - Av. Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "208c": {
+    "id": "208c",
+    "shortName": "208c",
+    "longName": "Huechuraba - (M) Zapadores",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "209c": {
+    "id": "209c",
+    "shortName": "209c",
+    "longName": "El Volcan - (M) Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "210e": {
+    "id": "210e",
+    "shortName": "210e",
+    "longName": "Estacion Central - Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "210v": {
+    "id": "210v",
+    "shortName": "210v",
+    "longName": "Estacion Central - Av. Mexico",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "211c": {
+    "id": "211c",
+    "shortName": "211c",
+    "longName": "(M) La Cisterna - San Bernardo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "213e": {
+    "id": "213e",
+    "shortName": "213e",
+    "longName": "Plaza Italia - Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "217e": {
+    "id": "217e",
+    "shortName": "217e",
+    "longName": "Maestranza - (M) Santa Ana",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "219e": {
+    "id": "219e",
+    "shortName": "219e",
+    "longName": "(M) La Cisterna - Ciudad Empresarial",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "225c": {
+    "id": "225c",
+    "shortName": "225c",
+    "longName": "Villa Los Aromos - (M) Vicente Valdes",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "262N": {
+    "id": "262N",
+    "shortName": "262n",
+    "longName": "(M) Macul - Villa España",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "264N": {
+    "id": "264N",
+    "shortName": "264n",
+    "longName": "Pedro Fontova - Santo Tomas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "301c": {
+    "id": "301c",
+    "shortName": "301c",
+    "longName": "(M) La Cisterna - Angelmo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "302N": {
+    "id": "302N",
+    "shortName": "302n",
+    "longName": "Alameda - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "307c": {
+    "id": "307c",
+    "shortName": "307c",
+    "longName": "Lo Marcoleta - (M) Los Libertadores",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "307e": {
+    "id": "307e",
+    "shortName": "307e",
+    "longName": "Rigoberto Jara - (M) Santa Lucia",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "308c": {
+    "id": "308c",
+    "shortName": "308c",
+    "longName": "San Luis - (M) Lo Cruzat",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "313e": {
+    "id": "313e",
+    "shortName": "313e",
+    "longName": "Quilicura - Estacion Central",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "314c": {
+    "id": "314c",
+    "shortName": "314c",
+    "longName": "Lo Marcoleta - (M) Lo Cruzat",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "315e": {
+    "id": "315e",
+    "shortName": "315e",
+    "longName": "Rigoberto Jara - (M) Santa Lucia",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "320c": {
+    "id": "320c",
+    "shortName": "320c",
+    "longName": "(M) Bellavista De La Florida - Maria Angelica",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "346N": {
+    "id": "346N",
+    "shortName": "346n",
+    "longName": "Lo Espejo - Alameda",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "401c": {
+    "id": "401c",
+    "shortName": "401c",
+    "longName": "(M) Escuela Militar - Las Condes",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "404c": {
+    "id": "404c",
+    "shortName": "404c",
+    "longName": "El Descanso - (M) Las Rejas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "405c": {
+    "id": "405c",
+    "shortName": "405c",
+    "longName": "Plaza Italia - Cantagallo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "406c": {
+    "id": "406c",
+    "shortName": "406c",
+    "longName": "(M) Escuela Militar - Av. El Rodeo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "408e": {
+    "id": "408e",
+    "shortName": "408e",
+    "longName": "Renca - Mapocho",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "410e": {
+    "id": "410e",
+    "shortName": "410e",
+    "longName": "Renca - Providencia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "414e": {
+    "id": "414e",
+    "shortName": "414e",
+    "longName": "(M) Pudahuel -  Los Trapenses",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "415e": {
+    "id": "415e",
+    "shortName": "415e",
+    "longName": "(M) Pudahuel - (M) Manquehue",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "417e": {
+    "id": "417e",
+    "shortName": "417e",
+    "longName": "Maipu - (M) Manquehue",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "421c": {
+    "id": "421c",
+    "shortName": "421c",
+    "longName": "San Carlos De Apoquindo - (M) Los Dominicos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "422c": {
+    "id": "422c",
+    "shortName": "422c",
+    "longName": "Pob. Teniente Merino -  (M) San Pablo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "428e": {
+    "id": "428e",
+    "shortName": "428e",
+    "longName": "(M) Los Libertadores - (M) La Cisterna",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "429c": {
+    "id": "429c",
+    "shortName": "429c",
+    "longName": "Quilicura - (M) Tobalaba",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "431c": {
+    "id": "431c",
+    "shortName": "431c",
+    "longName": "Nueva San Martin - (M) Ecuador",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "432N": {
+    "id": "432N",
+    "shortName": "432n",
+    "longName": "Maipu - La Reina",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "445c": {
+    "id": "445c",
+    "shortName": "445c",
+    "longName": "Centro - Vitacura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "502c": {
+    "id": "502c",
+    "shortName": "502c",
+    "longName": "Cerro Navia - Santiago",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "505c": {
+    "id": "505c",
+    "shortName": "505c",
+    "longName": "Las Parcelas - (M) Salvador",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "506e": {
+    "id": "506e",
+    "shortName": "506e",
+    "longName": "Maipu - Peñalolen",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "506v": {
+    "id": "506v",
+    "shortName": "506v",
+    "longName": "Villa El Abrazo - Peñalolen",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "507c": {
+    "id": "507c",
+    "shortName": "507c",
+    "longName": "(M) Parque O'Higgins - Peñalolen",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "514c": {
+    "id": "514c",
+    "shortName": "514c",
+    "longName": "(M) Salvador - San Luis De Macul",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "541N": {
+    "id": "541N",
+    "shortName": "541n",
+    "longName": "El Tranque - Colon",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "546e": {
+    "id": "546e",
+    "shortName": "546e",
+    "longName": "Villa El Abrazo - Vitacura",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B01": {
+    "id": "B01",
+    "shortName": "B01",
+    "longName": "Huamachuco - El Salto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B02": {
+    "id": "B02",
+    "shortName": "B02",
+    "longName": "El Barrero - Centro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B02N": {
+    "id": "B02N",
+    "shortName": "B02n",
+    "longName": "El Barrero - Plaza Italia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B03": {
+    "id": "B03",
+    "shortName": "B03",
+    "longName": "Miraflores - (M) Cerro Blanco",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B04": {
+    "id": "B04",
+    "shortName": "B04",
+    "longName": "(M) Los Libertadores - Mapocho",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B05": {
+    "id": "B05",
+    "shortName": "B05",
+    "longName": "(M) Los Libertadores - Ciudad Empresarial",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B06": {
+    "id": "B06",
+    "shortName": "B06",
+    "longName": "(M) Zapadores - Santa Laura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B07": {
+    "id": "B07",
+    "shortName": "B07",
+    "longName": "M) Los Libertadores - San Ignacio",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B08": {
+    "id": "B08",
+    "shortName": "B08",
+    "longName": "Lo Marcoleta - Mall Plaza Norte",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B09": {
+    "id": "B09",
+    "shortName": "B09",
+    "longName": "Lo Boza - Lo Franco",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B10": {
+    "id": "B10",
+    "shortName": "B10",
+    "longName": "Santa Marta Huechuraba - (M) Cerro Blanco",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B11": {
+    "id": "B11",
+    "shortName": "B11",
+    "longName": "El Salto - Lo Marcoleta",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B12": {
+    "id": "B12",
+    "shortName": "B12",
+    "longName": "(M) Zapadores - Lo Marcoleta",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B12c": {
+    "id": "B12c",
+    "shortName": "B12c",
+    "longName": "Lo Marcoleta - Buenaventura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B13": {
+    "id": "B13",
+    "shortName": "B13",
+    "longName": "Valle Grande - (M) Lo Cruzat",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B14": {
+    "id": "B14",
+    "shortName": "B14",
+    "longName": "El Salto - Mapocho",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B15": {
+    "id": "B15",
+    "shortName": "B15",
+    "longName": "El Salto - Plaza Italia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B16": {
+    "id": "B16",
+    "shortName": "B16",
+    "longName": "El Carmen - (M) Vespucio Norte",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B17": {
+    "id": "B17",
+    "shortName": "B17",
+    "longName": "Huamachuco - Av. Arzobispo Valdivieso",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B18": {
+    "id": "B18",
+    "shortName": "B18",
+    "longName": "Villa Pucara - (M) Vespucio Norte",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B18e": {
+    "id": "B18e",
+    "shortName": "B18e",
+    "longName": "Villa Pucara - (M) Los Libertadores",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B19": {
+    "id": "B19",
+    "shortName": "B19",
+    "longName": "(M) Cardenal Caro - (M) Vespucio Norte",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B20": {
+    "id": "B20",
+    "shortName": "B20",
+    "longName": "Miraflores - Mapocho",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B21": {
+    "id": "B21",
+    "shortName": "B21",
+    "longName": "Plaza Chacabuco - Lo Marcoleta",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B22": {
+    "id": "B22",
+    "shortName": "B22",
+    "longName": "Palacio Riesco - Urmeneta",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B24": {
+    "id": "B24",
+    "shortName": "B24",
+    "longName": "Huamachuco - Centro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B25": {
+    "id": "B25",
+    "shortName": "B25",
+    "longName": "(M) Vespucio Norte - (M) Cerro Blanco",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B26": {
+    "id": "B26",
+    "shortName": "B26",
+    "longName": "(M) Los Libertadores - (M) Estacion Central",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B27": {
+    "id": "B27",
+    "shortName": "B27",
+    "longName": "(M) Vespucio Norte - (M) Salvador",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B28": {
+    "id": "B28",
+    "shortName": "B28",
+    "longName": "Huamachuco - (M) Estacion Central",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B29": {
+    "id": "B29",
+    "shortName": "B29",
+    "longName": "Miraflores - Mapocho",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B30N": {
+    "id": "B30N",
+    "shortName": "B30n",
+    "longName": "Renca - Centro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B31N": {
+    "id": "B31N",
+    "shortName": "B31n",
+    "longName": "Centro - Quilicura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B32": {
+    "id": "B32",
+    "shortName": "B32",
+    "longName": "Valle Lo Campino - Muni. Quilicura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B33": {
+    "id": "B33",
+    "shortName": "B33",
+    "longName": "(M) Los Libertadores - Buenaventura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B35": {
+    "id": "B35",
+    "shortName": "B35",
+    "longName": "(M) Los Libertadores - (M) Zapadores",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B36": {
+    "id": "B36",
+    "shortName": "B36",
+    "longName": "(M) Los Libertadores - Pedro Fontova Norte",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B37": {
+    "id": "B37",
+    "shortName": "B37",
+    "longName": "(M) Los Libertadores - Parque Industrial",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B38": {
+    "id": "B38",
+    "shortName": "B38",
+    "longName": "Hospital Felix Bulnes - Huamachuco",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B41": {
+    "id": "B41",
+    "shortName": "B41",
+    "longName": "Mall Plaza Norte - (M) Cerro Blanco",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B42": {
+    "id": "B42",
+    "shortName": "B42",
+    "longName": "(M) Los Libertadores - Valle Grande",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B43": {
+    "id": "B43",
+    "shortName": "B43",
+    "longName": "(M) Vespucio Norte - Lo Marcoleta",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "B45": {
+    "id": "B45",
+    "shortName": "B45",
+    "longName": "Rigoberto Jara - El Mañio",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C01": {
+    "id": "C01",
+    "shortName": "C01",
+    "longName": "(M) Francisco Bilbao - Cerro 18",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C01c": {
+    "id": "C01c",
+    "shortName": "C01c",
+    "longName": "(M) Escuela Militar - Plaza San Enrique",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C02": {
+    "id": "C02",
+    "shortName": "C02",
+    "longName": "San Carlos De Apoquindo - (M) Escuela Militar",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C02c": {
+    "id": "C02c",
+    "shortName": "C02c",
+    "longName": "San Carlos De Apoquindo - (M) Los Dominicos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C03": {
+    "id": "C03",
+    "shortName": "C03",
+    "longName": "(M) Tobalaba - Vital Apoquindo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C03c": {
+    "id": "C03c",
+    "shortName": "C03c",
+    "longName": "Lo Gallo - Vital Apoquindo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C05": {
+    "id": "C05",
+    "shortName": "C05",
+    "longName": "La Ermita - (M) Francisco Bilbao",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C06": {
+    "id": "C06",
+    "shortName": "C06",
+    "longName": "Vital Apoquindo - Ciudad Empresarial",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C07": {
+    "id": "C07",
+    "shortName": "C07",
+    "longName": "La Piramide - (M) Francisco Bilbao",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C09": {
+    "id": "C09",
+    "shortName": "C09",
+    "longName": "La Dehesa - (M) Los Dominicos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C09c": {
+    "id": "C09c",
+    "shortName": "C09c",
+    "longName": "San Carlos De Apoquindo - (M) Los Dominicos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C10e": {
+    "id": "C10e",
+    "shortName": "C10e",
+    "longName": "(M) Tobalaba - Camino Juan Pablo Ii",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C11": {
+    "id": "C11",
+    "shortName": "C11",
+    "longName": "(M) Escuela Militar - Tabancura",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C13": {
+    "id": "C13",
+    "shortName": "C13",
+    "longName": "Vital Apoquindo - Parque Del Sol",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C14": {
+    "id": "C14",
+    "shortName": "C14",
+    "longName": "(M) Escuela Militar - Los Trapenses",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C15": {
+    "id": "C15",
+    "shortName": "C15",
+    "longName": "(M) Escuela Militar - Estoril",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C16": {
+    "id": "C16",
+    "shortName": "C16",
+    "longName": "Vital Apoquindo - El Huinganal",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C17": {
+    "id": "C17",
+    "shortName": "C17",
+    "longName": "Cerro 18 - Camino Real",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C18": {
+    "id": "C18",
+    "shortName": "C18",
+    "longName": "(M) Escuela Militar - (M) Dorsal",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C19": {
+    "id": "C19",
+    "shortName": "C19",
+    "longName": "(M) Escuela Militar - Valle De La Dehesa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C20": {
+    "id": "C20",
+    "shortName": "C20",
+    "longName": "(M) Escuela Militar - Parque Arauco",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C22": {
+    "id": "C22",
+    "shortName": "C22",
+    "longName": "(M) Escuela Militar - Rotonda Lo Curro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C25": {
+    "id": "C25",
+    "shortName": "C25",
+    "longName": "San Carlos De Apoquindo - Villa La Reina",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C26c": {
+    "id": "C26c",
+    "shortName": "C26c",
+    "longName": "Ciudad Empresarial - (M) Tobalaba",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C27": {
+    "id": "C27",
+    "shortName": "C27",
+    "longName": "Republica De Honduras - (M) Los Dominicos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C28": {
+    "id": "C28",
+    "shortName": "C28",
+    "longName": "(M) Escuela Militar - Los Bravos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C30e": {
+    "id": "C30e",
+    "shortName": "C30e",
+    "longName": "(M) Los Leones - Los Trapenses",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C33c": {
+    "id": "C33c",
+    "shortName": "C33c",
+    "longName": "Vitacura - (M) Tobalaba",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "C37": {
+    "id": "C37",
+    "shortName": "C37",
+    "longName": "(M) Los Dominicos - San Ramon Oriente",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D01": {
+    "id": "D01",
+    "shortName": "D01",
+    "longName": "Antupirén - (M) Plaza Egaña",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D02": {
+    "id": "D02",
+    "shortName": "D02",
+    "longName": "(M) Irarrázaval - Álvaro Casanova",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D03": {
+    "id": "D03",
+    "shortName": "D03",
+    "longName": "Las Parcelas - (M) Toesca",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D03c": {
+    "id": "D03c",
+    "shortName": "D03c",
+    "longName": "Las Parcelas - (M) Plaza Egaña",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D05": {
+    "id": "D05",
+    "shortName": "D05",
+    "longName": "(M) Franklin - Av. Tobalaba",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D07": {
+    "id": "D07",
+    "shortName": "D07",
+    "longName": "Diagonal Las Torres - (M) Franklin",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D07c": {
+    "id": "D07c",
+    "shortName": "D07c",
+    "longName": "Antupiren - (M) Grecia",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D08": {
+    "id": "D08",
+    "shortName": "D08",
+    "longName": "Av. Grecia - (M) Francisco Bilbao",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D09": {
+    "id": "D09",
+    "shortName": "D09",
+    "longName": "Av. Grecia Oriente - (M) Manuel Montt",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D10": {
+    "id": "D10",
+    "shortName": "D10",
+    "longName": "(M) Carlos Valdovinos - Diagonal Las Torres",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D11": {
+    "id": "D11",
+    "shortName": "D11",
+    "longName": "Diagonal Las Torres - Mall Alto Las Condes",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D13": {
+    "id": "D13",
+    "shortName": "D13",
+    "longName": "(M) Bellavista De La Florida - (M) Irarrazaval",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D14": {
+    "id": "D14",
+    "shortName": "D14",
+    "longName": "(M) Pedrero - (M) Quilin",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D15": {
+    "id": "D15",
+    "shortName": "D15",
+    "longName": "Diagonal Las Torres - La Reina Alta",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D16": {
+    "id": "D16",
+    "shortName": "D16",
+    "longName": "San Luis De Macul - (M) Francisco Bilbao",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D17": {
+    "id": "D17",
+    "shortName": "D17",
+    "longName": "(M) Quilin - Alto Macul",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D17v": {
+    "id": "D17v",
+    "shortName": "D17v",
+    "longName": "(M) Quilin - Las Pircas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D18": {
+    "id": "D18",
+    "shortName": "D18",
+    "longName": "Álvaro Casanova - (M) Santa Isabel",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D20": {
+    "id": "D20",
+    "shortName": "D20",
+    "longName": "Av. Grecia Oriente - Av. Las Torres",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "D26": {
+    "id": "D26",
+    "shortName": "D26",
+    "longName": "San Luis De Macul - Maria Angelica",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E01": {
+    "id": "E01",
+    "shortName": "E01",
+    "longName": "San Jose De La Estrella - (M) Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E02": {
+    "id": "E02",
+    "shortName": "E02",
+    "longName": "(M) Lo Ovalle - Diego Portales",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E03": {
+    "id": "E03",
+    "shortName": "E03",
+    "longName": "(M) Lo Ovalle - Jardin Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E04": {
+    "id": "E04",
+    "shortName": "E04",
+    "longName": "Av. La Florida - (M) Franklin",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E05": {
+    "id": "E05",
+    "shortName": "E05",
+    "longName": "(M) La Cisterna - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E07": {
+    "id": "E07",
+    "shortName": "E07",
+    "longName": "(M) Bellavista De La Florida - Rojas Magallanes",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E08": {
+    "id": "E08",
+    "shortName": "E08",
+    "longName": "Diego Portales - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E09": {
+    "id": "E09",
+    "shortName": "E09",
+    "longName": "(M) Elisa Correa - (M) Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E10": {
+    "id": "E10",
+    "shortName": "E10",
+    "longName": "El Hualle - Santa Rosa P21",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E11": {
+    "id": "E11",
+    "shortName": "E11",
+    "longName": "Diego Portales - (M) Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E12": {
+    "id": "E12",
+    "shortName": "E12",
+    "longName": "Gabriela - Santa Rosa P18",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E13": {
+    "id": "E13",
+    "shortName": "E13",
+    "longName": "Gabriela - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E14": {
+    "id": "E14",
+    "shortName": "E14",
+    "longName": "San Jose De La Estrella - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E15c": {
+    "id": "E15c",
+    "shortName": "E15c",
+    "longName": "Gabriela - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E16": {
+    "id": "E16",
+    "shortName": "E16",
+    "longName": "Gabriela - (M) Santa Rosa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E17": {
+    "id": "E17",
+    "shortName": "E17",
+    "longName": "(M) Bellavista De La Florida - Las Perdices",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "E18": {
+    "id": "E18",
+    "shortName": "E18",
+    "longName": "(M) La Cisterna - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F01": {
+    "id": "F01",
+    "shortName": "F01",
+    "longName": "Villa Padre Hurtado - Casas Viejas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F01c": {
+    "id": "F01c",
+    "shortName": "F01c",
+    "longName": "(M) Plaza Puente Alto - Casas Viejas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F02": {
+    "id": "F02",
+    "shortName": "F02",
+    "longName": "Pie Andino - San Geronimo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F03": {
+    "id": "F03",
+    "shortName": "F03",
+    "longName": "(M) Plaza Puente Alto - Plaza San Bernardo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F03c": {
+    "id": "F03c",
+    "shortName": "F03c",
+    "longName": "Pie Andino - Villa Las Mamiñas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F05": {
+    "id": "F05",
+    "shortName": "F05",
+    "longName": "(M) La Cisterna - Pie Andino",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F06": {
+    "id": "F06",
+    "shortName": "F06",
+    "longName": "(M) La Cisterna - Pie Andino",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F07": {
+    "id": "F07",
+    "shortName": "F07",
+    "longName": "Mall Plaza Tobalaba - Villa Padre Hurtado",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F08": {
+    "id": "F08",
+    "shortName": "F08",
+    "longName": "Villa Padre Hurtado - Diego Portales",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F09": {
+    "id": "F09",
+    "shortName": "F09",
+    "longName": "Pie Andino - (M) Elisa Correa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F10": {
+    "id": "F10",
+    "shortName": "F10",
+    "longName": "San Guillermo - Mall Plaza Tobalaba",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F10c": {
+    "id": "F10c",
+    "shortName": "F10c",
+    "longName": "San Guillermo - (M) Plaza Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F11": {
+    "id": "F11",
+    "shortName": "F11",
+    "longName": "Pie Andino - Las Vizcachas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F12": {
+    "id": "F12",
+    "shortName": "F12",
+    "longName": "Bajos De Mena - (M) Plaza Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F12c": {
+    "id": "F12c",
+    "shortName": "F12c",
+    "longName": "Villa Costa Azul - (M) Plaza Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F13": {
+    "id": "F13",
+    "shortName": "F13",
+    "longName": "Bajos De Mena - Mall Plaza Tobalaba",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F13c": {
+    "id": "F13c",
+    "shortName": "F13c",
+    "longName": "Mall Plaza Tobalaba - (M) Elisa Correa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F14": {
+    "id": "F14",
+    "shortName": "F14",
+    "longName": "Villa Padre Hurtado - (M) Plaza Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F15": {
+    "id": "F15",
+    "shortName": "F15",
+    "longName": "Bajos De Mena - (M) Elisa Correa",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F16": {
+    "id": "F16",
+    "shortName": "F16",
+    "longName": "Villa Padre Hurtado - Ribera Rio Maipo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F18": {
+    "id": "F18",
+    "shortName": "F18",
+    "longName": "Villa Chiloe - (M) Plaza Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F20": {
+    "id": "F20",
+    "shortName": "F20",
+    "longName": "(M) La Cisterna - Pie Andino",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F24": {
+    "id": "F24",
+    "shortName": "F24",
+    "longName": "Casas Viejas - Ciudad Del Sol",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F25": {
+    "id": "F25",
+    "shortName": "F25",
+    "longName": "Bajos De Mena - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F25e": {
+    "id": "F25e",
+    "shortName": "F25e",
+    "longName": "Bajos De Mena - (M) Bellavista De La Florida",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F26": {
+    "id": "F26",
+    "shortName": "F26",
+    "longName": "Villa Padre Hurtado - San Carlos Oriente",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F27": {
+    "id": "F27",
+    "shortName": "F27",
+    "longName": "Villa Padre Hurtado - Villa Portezuelo Oriente",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F28": {
+    "id": "F28",
+    "shortName": "F28",
+    "longName": "Sargento Menadier - Eduardo Cordero",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F29": {
+    "id": "F29",
+    "shortName": "F29",
+    "longName": "Pie Andino - Casas Viejas",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F30N": {
+    "id": "F30N",
+    "shortName": "F30n",
+    "longName": "Bajos De Mena - La Moneda",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "F33": {
+    "id": "F33",
+    "shortName": "F33",
+    "longName": "Bajos De Mena - (M) Plaza Puente Alto",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G01": {
+    "id": "G01",
+    "shortName": "G01",
+    "longName": "La Vara - Santo Tomas",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G01c": {
+    "id": "G01c",
+    "shortName": "G01c",
+    "longName": "La Vara - Santa Rosa Parad. 21",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G02": {
+    "id": "G02",
+    "shortName": "G02",
+    "longName": "Catemito - Puente Los Morros",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G04": {
+    "id": "G04",
+    "shortName": "G04",
+    "longName": "(M) La Cisterna - Santo Tomas",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G05": {
+    "id": "G05",
+    "shortName": "G05",
+    "longName": "El Castillo - (M) La Cisterna",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G07": {
+    "id": "G07",
+    "shortName": "G07",
+    "longName": "San Francisco - Villa La Estrella",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G08": {
+    "id": "G08",
+    "shortName": "G08",
+    "longName": "Poblacion La Selva - (M) La Cisterna",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G08v": {
+    "id": "G08v",
+    "shortName": "G08v",
+    "longName": "Nos - (M) La Cisterna",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G09": {
+    "id": "G09",
+    "shortName": "G09",
+    "longName": "Santa Margarita - Lo Blanco",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G11": {
+    "id": "G11",
+    "shortName": "G11",
+    "longName": "(M) Lo Ovalle - Lo Blanco",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G12": {
+    "id": "G12",
+    "shortName": "G12",
+    "longName": "(M) Lo Ovalle - Av. Lo Espejo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G13": {
+    "id": "G13",
+    "shortName": "G13",
+    "longName": "(M) La Cisterna - El Castillo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G13c": {
+    "id": "G13c",
+    "shortName": "G13c",
+    "longName": "El Castillo - (M) Copa Lo Martinez",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G14": {
+    "id": "G14",
+    "shortName": "G14",
+    "longName": "Estacion Lo Blanco - Poblacion Valle Nevado",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G15": {
+    "id": "G15",
+    "shortName": "G15",
+    "longName": "(M) La Cisterna - Santo Tomas",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G16": {
+    "id": "G16",
+    "shortName": "G16",
+    "longName": "(M) La Cisterna - El Castillo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G18": {
+    "id": "G18",
+    "shortName": "G18",
+    "longName": "Santo Tomas - (M) Lo Ovalle",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G22": {
+    "id": "G22",
+    "shortName": "G22",
+    "longName": "Estacion 5 Pinos - (M) La Cisterna",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G23": {
+    "id": "G23",
+    "shortName": "G23",
+    "longName": "Estacion Lo Blanco - Santa Rosa P.43",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G24": {
+    "id": "G24",
+    "shortName": "G24",
+    "longName": "Poblacion Valle Nevado - San Francisco",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G27": {
+    "id": "G27",
+    "shortName": "G27",
+    "longName": "Mall Plaza Sur - Estacion San Bernardo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G28": {
+    "id": "G28",
+    "shortName": "G28",
+    "longName": "Angelmo - La Pintana",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G31": {
+    "id": "G31",
+    "shortName": "G31",
+    "longName": "Lo Blanco - Angelmo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G32": {
+    "id": "G32",
+    "shortName": "G32",
+    "longName": "Santa Ines - Estacion San Bernardo",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G34": {
+    "id": "G34",
+    "shortName": "G34",
+    "longName": "La Vara - (M) La Cisterna",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G35": {
+    "id": "G35",
+    "shortName": "G35",
+    "longName": "El Castillo - (M) Copa Lo Martinez",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G37": {
+    "id": "G37",
+    "shortName": "G37",
+    "longName": "Estacion San Bernardo - El Romeral",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G38": {
+    "id": "G38",
+    "shortName": "G38",
+    "longName": "Mall Plaza Sur - (M) Hospital El Pino",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G39": {
+    "id": "G39",
+    "shortName": "G39",
+    "longName": "Lo Espejo - Santa Mercedes",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "G43": {
+    "id": "G43",
+    "shortName": "G43",
+    "longName": "Estacion Lo Blanco - San Alberto De Nos",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "G46": {
+    "id": "G46",
+    "shortName": "G46",
+    "longName": "General Urrutia - La Estancilla De Nos",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H03": {
+    "id": "H03",
+    "shortName": "H03",
+    "longName": "(M) Lo Ovalle - Mall Plaza Oeste",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H05": {
+    "id": "H05",
+    "shortName": "H05",
+    "longName": "(M) Carlos Valdovinos - Jose Maria Caro",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H07": {
+    "id": "H07",
+    "shortName": "H07",
+    "longName": "(M) Ñuble - (M) Lo Ovalle",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H08": {
+    "id": "H08",
+    "shortName": "H08",
+    "longName": "Pobl. Las Turbinas - (M) Lo Ovalle",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H09": {
+    "id": "H09",
+    "shortName": "H09",
+    "longName": "Jose Maria Caro - (M) Valdovinos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H12": {
+    "id": "H12",
+    "shortName": "H12",
+    "longName": "Lo Espejo - (M) Franklin",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H13": {
+    "id": "H13",
+    "shortName": "H13",
+    "longName": "Santa Olga - (M) Los Heroes",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "H24": {
+    "id": "H24",
+    "shortName": "H24",
+    "longName": "La Victoria - Portal Oeste",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I01": {
+    "id": "I01",
+    "shortName": "I01",
+    "longName": "Villa Los Heroes - Hospital Borja Arriarán",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I02": {
+    "id": "I02",
+    "shortName": "I02",
+    "longName": "Rinconada - (M) Laguna Sur",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I03": {
+    "id": "I03",
+    "shortName": "I03",
+    "longName": "Villa Los Heroes - (M) Quinta Normal",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I03c": {
+    "id": "I03c",
+    "shortName": "I03c",
+    "longName": "Valle Verde - (M) San Alberto Hurtado",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I04": {
+    "id": "I04",
+    "shortName": "I04",
+    "longName": "Villa El Abrazo - (M) San Alberto Hur",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I04c": {
+    "id": "I04c",
+    "shortName": "I04c",
+    "longName": "Villa El Abrazo - (M) Plaza Maipu",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I04e": {
+    "id": "I04e",
+    "shortName": "I04e",
+    "longName": "Villa El Abrazo - (M) Plaza Maipu",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I05": {
+    "id": "I05",
+    "shortName": "I05",
+    "longName": "Rinconada - (M) Lo Ovalle",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I07": {
+    "id": "I07",
+    "shortName": "I07",
+    "longName": "Rinconada - Mall Arauco Maipu",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I08": {
+    "id": "I08",
+    "shortName": "I08",
+    "longName": "Mall Arauco Maipu - (M) San Alberto H",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I08N": {
+    "id": "I08N",
+    "shortName": "I08n",
+    "longName": "La Farfana - Alameda",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I08c": {
+    "id": "I08c",
+    "shortName": "I08c",
+    "longName": "La Farfana - (M) Del Sol",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I09": {
+    "id": "I09",
+    "shortName": "I09",
+    "longName": "Rinconada - (M) U. De Chile",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I09c": {
+    "id": "I09c",
+    "shortName": "I09c",
+    "longName": "Rinconada - (M) Las Rejas",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I09e": {
+    "id": "I09e",
+    "shortName": "I09e",
+    "longName": "Rinconada - (M) U. De Chile",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I10": {
+    "id": "I10",
+    "shortName": "I10",
+    "longName": "Villa Los Heroes - (M) Quinta Normal",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I10N": {
+    "id": "I10N",
+    "shortName": "I10n",
+    "longName": "Villa Los Heroes - Alameda",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I11": {
+    "id": "I11",
+    "shortName": "I11",
+    "longName": "Ciudad Satelite - Rinconada",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I11N": {
+    "id": "I11N",
+    "shortName": "I11n",
+    "longName": "Ciudad Satelite - (M) Plaza Maipu",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I12": {
+    "id": "I12",
+    "shortName": "I12",
+    "longName": "Pueblito La Farfana - Mall Plaza Oeste",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I13": {
+    "id": "I13",
+    "shortName": "I13",
+    "longName": "(M) Del Sol - (M) San Alberto Hurtado",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I14": {
+    "id": "I14",
+    "shortName": "I14",
+    "longName": "Mall Plaza Oeste - Estacion Central",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I14N": {
+    "id": "I14N",
+    "shortName": "I14n",
+    "longName": "Mall Plaza Oeste - Centro",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I16": {
+    "id": "I16",
+    "shortName": "I16",
+    "longName": "Poblacion Santiago - Ferrocarril",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I17": {
+    "id": "I17",
+    "shortName": "I17",
+    "longName": "Villa Francia - Hospital San Juan De Dios",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I18": {
+    "id": "I18",
+    "shortName": "I18",
+    "longName": "Rinconada - (M) Ula",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I20": {
+    "id": "I20",
+    "shortName": "I20",
+    "longName": "Valle Verde - Marta Ossa Ruiz",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I21": {
+    "id": "I21",
+    "shortName": "I21",
+    "longName": "Villa Hernan Diaz - (M) Plaza Maipu",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I22": {
+    "id": "I22",
+    "shortName": "I22",
+    "longName": "La Farfana - (M) Del Sol",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I24": {
+    "id": "I24",
+    "shortName": "I24",
+    "longName": "Villa Los Maitenes - Plaza Oeste",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I25": {
+    "id": "I25",
+    "shortName": "I25",
+    "longName": "Villa S. Henriquez - Portal Oeste",
+    "color": "00A77E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I26": {
+    "id": "I26",
+    "shortName": "I26",
+    "longName": "Avenida Portales - (M) Cerrillos",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "I35": {
+    "id": "I35",
+    "shortName": "I35",
+    "longName": "(M) Del Sol - Padre Hurtado",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "I39": {
+    "id": "I39",
+    "shortName": "I39",
+    "longName": "Villa San Alberto - (M) Cerrillos",
+    "color": "F58220",
+    "textColor": "000000",
+    "tipo": "3"
+  },
+  "J01": {
+    "id": "J01",
+    "shortName": "J01",
+    "longName": "Pudahuel Sur - (M) Quinta Normal",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J01c": {
+    "id": "J01c",
+    "shortName": "J01c",
+    "longName": "Carrascal - (M) San Pablo",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J02": {
+    "id": "J02",
+    "shortName": "J02",
+    "longName": "Enea - (M) Ula",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J03": {
+    "id": "J03",
+    "shortName": "J03",
+    "longName": "El Montijo - (M) Republica",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J04": {
+    "id": "J04",
+    "shortName": "J04",
+    "longName": "(M) Neptuno - La Alianza",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J05": {
+    "id": "J05",
+    "shortName": "J05",
+    "longName": "El Montijo - (M) Ula",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J06": {
+    "id": "J06",
+    "shortName": "J06",
+    "longName": "(M) Pudahuel - (M) Pajaritos",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J07": {
+    "id": "J07",
+    "shortName": "J07",
+    "longName": "Noviciado - (M) Pudahuel",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J07c": {
+    "id": "J07c",
+    "shortName": "J07c",
+    "longName": "(M) Pudahuel - Lo Boza",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J07e": {
+    "id": "J07e",
+    "shortName": "J07e",
+    "longName": "Noviciado - (M) Pudahuel",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J08": {
+    "id": "J08",
+    "shortName": "J08",
+    "longName": "Pudahuel Sur - Lo Franco",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J10": {
+    "id": "J10",
+    "shortName": "J10",
+    "longName": "San Daniel - Parque De Los Reyes",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J11": {
+    "id": "J11",
+    "shortName": "J11",
+    "longName": "Lomas De Lo Aguirre - (M) Pajaritos",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J12": {
+    "id": "J12",
+    "shortName": "J12",
+    "longName": "(M) Pajaritos - Ciudad De Los Valles",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J13": {
+    "id": "J13",
+    "shortName": "J13",
+    "longName": "(M) Estacion Central - El Monitjo",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J13c": {
+    "id": "J13c",
+    "shortName": "J13c",
+    "longName": "(M) San Pablo - El Montijo",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J15c": {
+    "id": "J15c",
+    "shortName": "J15c",
+    "longName": "La Alianza - (M) Neptuno",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J16": {
+    "id": "J16",
+    "shortName": "J16",
+    "longName": "Cerro Navia - (M) Estacion Central",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J17": {
+    "id": "J17",
+    "shortName": "J17",
+    "longName": "(M) Pajaritos - Puerto Santiago",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J18": {
+    "id": "J18",
+    "shortName": "J18",
+    "longName": "Enea - (M) San Pablo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J18c": {
+    "id": "J18c",
+    "shortName": "J18c",
+    "longName": "El Tranque - (M) San Pablo",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J19": {
+    "id": "J19",
+    "shortName": "J19",
+    "longName": "Pudahuel Sur - (M) Quinta Normal",
+    "color": "AF2B1E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J20": {
+    "id": "J20",
+    "shortName": "J20",
+    "longName": "El Montijo - (M) Pudahuel",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "J22": {
+    "id": "J22",
+    "shortName": "J22",
+    "longName": "(M) Pajaritos - Praderas De Lo Aguirre",
+    "color": "00929E",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  },
+  "L1": {
+    "id": "L1",
+    "shortName": "L1",
+    "longName": "Línea 1",
+    "color": "C8102E",
+    "textColor": "FFFFFF",
+    "tipo": "1"
+  },
+  "L2": {
+    "id": "L2",
+    "shortName": "L2",
+    "longName": "Línea 2",
+    "color": "F2A900",
+    "textColor": "000000",
+    "tipo": "1"
+  },
+  "L3": {
+    "id": "L3",
+    "shortName": "L3",
+    "longName": "Línea 3",
+    "color": "703F2A",
+    "textColor": "FFFFFF",
+    "tipo": "1"
+  },
+  "L4": {
+    "id": "L4",
+    "shortName": "L4",
+    "longName": "Línea 4",
+    "color": "151F6D",
+    "textColor": "FFFFFF",
+    "tipo": "1"
+  },
+  "L4A": {
+    "id": "L4A",
+    "shortName": "L4A",
+    "longName": "Línea 4A",
+    "color": "0072CE",
+    "textColor": "FFFFFF",
+    "tipo": "1"
+  },
+  "L5": {
+    "id": "L5",
+    "shortName": "L5",
+    "longName": "Línea 5",
+    "color": "00965E",
+    "textColor": "FFFFFF",
+    "tipo": "1"
+  },
+  "L6": {
+    "id": "L6",
+    "shortName": "L6",
+    "longName": "Línea 6",
+    "color": "8E3A80",
+    "textColor": "FFFFFF",
+    "tipo": "1"
+  },
+  "MTN": {
+    "id": "MTN",
+    "shortName": "MTN",
+    "longName": "Tren Nos - Estación Central",
+    "color": "151CF3",
+    "textColor": "FFFFFF",
+    "tipo": "0"
+  },
+  "MTR": {
+    "id": "MTR",
+    "shortName": "MTR",
+    "longName": "Tren Rancagua - Estación Central",
+    "color": "F3B015",
+    "textColor": "000000",
+    "tipo": "0"
+  },
+  "BA": {
+    "id": "BA",
+    "shortName": "BA",
+    "longName": "Bus Acercamiento Aeropuerto",
+    "color": "0951BC",
+    "textColor": "FFFFFF",
+    "tipo": "3"
+  }
+}

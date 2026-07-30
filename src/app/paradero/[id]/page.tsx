@@ -5,6 +5,7 @@ import { ArrowLeft, MapPin, Bus, Star } from "lucide-react";
 import { TarjetaResena } from "@/components/paradero/TarjetaResena";
 import { FormularioResena } from "@/components/paradero/FormularioResena";
 import { Button } from "@/components/ui/button";
+import { RouteBadge } from "@/components/ui/route-badge";
 
 export default async function ParaderoPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -18,6 +19,21 @@ export default async function ParaderoPage({ params }: { params: Promise<{ id: s
   const promedio = paradero.resenas.length > 0
     ? (paradero.resenas.reduce((s, r) => s + r.rating, 0) / paradero.resenas.length).toFixed(1)
     : null;
+
+  // Fetch paradero with routes from API
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/paraderos/${id}`, {
+    cache: 'no-store',
+  });
+  const paraderoConRutas = res.ok ? await res.json() : paradero;
+
+  // Extract unique routes
+  const rutasUnicas = paraderoConRutas.stopTimes
+    ? Array.from(
+        new Map(
+          paraderoConRutas.stopTimes.map((st: any) => [st.trip.route.id, st.trip.route])
+        ).values()
+      )
+    : [];
 
   return (
     <main className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
@@ -50,6 +66,17 @@ export default async function ParaderoPage({ params }: { params: Promise<{ id: s
             <span className="text-sm text-gray-400 dark:text-gray-500">· {paradero.resenas.length} reseña{paradero.resenas.length !== 1 ? 's' : ''}</span>
           </div>
         </div>
+
+        {rutasUnicas.length > 0 && (
+          <div className="bg-white dark:bg-gray-900 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-800 mb-5">
+            <h2 className="font-bold text-sm text-gray-700 dark:text-gray-300 mb-3">Servicios</h2>
+            <div className="flex flex-wrap gap-2">
+              {rutasUnicas.map((route: any) => (
+                <RouteBadge key={route.id} route={route} />
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="mb-5">
           <FormularioResena paraderoId={paradero.id} />

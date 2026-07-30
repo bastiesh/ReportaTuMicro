@@ -1,10 +1,32 @@
+export interface Route {
+  id: string;
+  shortName: string;
+  longName: string;
+  color: string;
+  textColor: string;
+  tipo: string;
+}
+
+export interface StopTime {
+  stopSequence: number;
+  arrivalTime: string;
+  trip: {
+    headsign: string;
+    route: Route;
+  };
+}
+
 export interface Paradero {
   id: string; gtfsStopId: string; nombre: string; lat: number; lng: number; comuna: string;
 }
 
+export interface ParaderoConRutas extends Paradero {
+  stopTimes?: StopTime[];
+}
+
 export interface Resena {
   id: string; paraderoId: string; texto: string; rating: number;
-  reportesAbuso: number; oculta: boolean; creadoEn: string;
+  reportesAbuso: number; oculta: boolean; creadoEn: string | Date;
 }
 
 export interface Incidencia {

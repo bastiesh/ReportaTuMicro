@@ -2,8 +2,9 @@
 import { Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import Link from "next/link";
-import { Paradero } from "@/types";
+import { ParaderoConRutas } from "@/types";
 import { Bus, MapPin, ChevronRight } from "lucide-react";
+import { RouteBadge } from "@/components/ui/route-badge";
 
 const iconoParadero = L.divIcon({
   className: "paradero-marker",
@@ -11,7 +12,16 @@ const iconoParadero = L.divIcon({
   iconSize: [14, 14], iconAnchor: [7, 7],
 });
 
-export function MarcadorParadero({ paradero }: { paradero: Paradero }) {
+export function MarcadorParadero({ paradero }: { paradero: ParaderoConRutas }) {
+  // Extract unique routes from stopTimes
+  const rutasUnicas = paradero.stopTimes
+    ? Array.from(
+        new Map(
+          paradero.stopTimes.map(st => [st.trip.route.id, st.trip.route])
+        ).values()
+      )
+    : [];
+
   return (
     <Marker position={[paradero.lat, paradero.lng]} icon={iconoParadero}>
       <Popup className="paradero-popup" closeButton={false}>
@@ -27,9 +37,26 @@ export function MarcadorParadero({ paradero }: { paradero: Paradero }) {
               </p>
             </div>
           </div>
+          
+          {rutasUnicas.length > 0 && (
+            <div className="mb-3">
+              <p className="text-[10px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-1.5">Servicios</p>
+              <div className="flex flex-wrap gap-1.5">
+                {rutasUnicas.slice(0, 5).map((route) => (
+                  <RouteBadge key={route.id} route={route} size="sm" />
+                ))}
+                {rutasUnicas.length > 5 && (
+                  <span className="text-[11px] text-gray-500 dark:text-gray-400 px-1.5 py-0.5">
+                    +{rutasUnicas.length - 5}
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
+
           <Link href={`/paradero/${paradero.id}`}
             className="flex items-center justify-center gap-1 w-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold py-2.5 px-4 rounded-xl transition-all shadow-md shadow-blue-600/20">
-            Ver reseñas <ChevronRight size={14} />
+            Ver detalle <ChevronRight size={14} />
           </Link>
         </div>
       </Popup>

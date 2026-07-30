@@ -1,23 +1,25 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import { useMapaStore } from "@/stores/mapaStore";
 import { FiltrosMapa } from "@/components/mapa/FiltrosMapa";
 import { LeyendaMapa } from "@/components/mapa/LeyendaMapa";
 import { Button } from "@/components/ui/button";
 import { Plus, X } from "lucide-react";
+import dynamic from "next/dynamic";
+import MapaCliente from "@/components/mapa/MapaCliente";
 
-const MapaCliente = dynamic(() => import("@/components/mapa/MapaCliente"), { ssr: false });
 const FormularioIncidencia = dynamic(() => import("@/components/reportes/FormularioIncidencia"), { ssr: false });
 
 export default function HomePage() {
   const { panelAbierto, setPanelAbierto } = useMapaStore();
 
   return (
-    <main className="relative h-screen w-screen overflow-hidden pt-11">
+    <>
       <MapaCliente />
-      <FiltrosMapa />
-      <LeyendaMapa />
+      <div className="absolute top-11 left-0 right-0 bottom-0 pointer-events-none z-10">
+        <FiltrosMapa />
+        <LeyendaMapa />
+      </div>
 
       {!panelAbierto && (
         <Button onClick={() => setPanelAbierto(true)} size="icon"
@@ -37,6 +39,6 @@ export default function HomePage() {
           </div>
         </>
       )}
-    </main>
+    </>
   );
 }
