@@ -153,9 +153,18 @@ function ParaderosLayer() {
     setLoading(true);
     const t = setTimeout(() => {
       fetch(`/api/paraderos?${params}`, { signal: abortRef.current!.signal })
-        .then(r => r.json())
-        .then(setParaderos)
-        .catch(() => {})
+        .then(r => {
+          if (!r.ok) throw new Error('API error');
+          return r.json();
+        })
+        .then(data => {
+          if (Array.isArray(data)) {
+            setParaderos(data);
+          }
+        })
+        .catch((error) => {
+          console.error('Error fetching paraderos:', error);
+        })
         .finally(() => setLoading(false));
     }, 250);
 
@@ -192,9 +201,18 @@ function IncidenciasLayer() {
 
     const t = setTimeout(() => {
       fetch(`/api/incidencias?${params}`, { signal: abortRef.current!.signal })
-        .then(r => r.json())
-        .then(setIncidencias)
-        .catch(() => {});
+        .then(r => {
+          if (!r.ok) throw new Error('API error');
+          return r.json();
+        })
+        .then(data => {
+          if (Array.isArray(data)) {
+            setIncidencias(data);
+          }
+        })
+        .catch((error) => {
+          console.error('Error fetching incidencias:', error);
+        });
     }, 250);
 
     return () => { clearTimeout(t); abortRef.current?.abort(); };

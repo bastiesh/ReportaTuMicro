@@ -1,24 +1,57 @@
 import { NextRequest, NextResponse } from "next/server";
+import { prisma } from "@/lib/prisma";
+import { z } from "zod";
+import { addMinutes, differenceInHours, isAfter } from "date-fns";
 
-// Mock incidencias for Vercel deployment (SQLite doesn't work on serverless)
-const mockIncidencias = [
-  { id: "i1", tipo: "ATRASO", descripcion: "Micro con 15 minutos de retraso", lat: -33.4489, lng: -70.6693, horaInicio: null, horaFin: null, expiraAt: new Date(Date.now() + 3600000), creadoEn: new Date() },
-  { id: "i2", tipo: "FISCALIZADOR", descripcion: "No hay fiscalizador en el paradero", lat: -33.4500, lng: -70.6700, horaInicio: null, horaFin: null, expiraAt: new Date(Date.now() + 7200000), creadoEn: new Date() },
-  { id: "i3", tipo: "ZONA_INSEGURA", descripcion: "Zona poco iluminada por la noche", lat: -33.4510, lng: -70.6710, horaInicio: null, horaFin: null, expiraAt: new Date(Date.now() + 5400000), creadoEn: new Date() },
-];
+const incidenciaSchema = z.object({
+  tipo: z.enum(["ATRASO", "FISCALIZADOR", "ZONA_INSEGURA", "OTRO"]),
+  descripcion: z.string().min(5, "Mínimo 5 caracteres").max(300, "Máximo 300 caracteres"),
+  lat: z.number().min(-90).max(90),
+  lng: z.number().min(-180).max(180),
+  horaInicio: z.string().datetime().optional(),
+  horaFin: z.string().datetime().optional(),
+});
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    // For demo, just return success without actually saving
-    const incidencia = {
-      id: `i${Date.now()}`,
-      ...body,
-      expiraAt: new Date(Date.now() + 5400000),
-      creadoEn: new Date(),
-    };
+    const { tipo, descripcion, lat, lng, horaInicio, horaFin } = incidenciaSchema.parse(body);
+
+    const ahora = new Date();
+    let expiraAt: Date;
+
+    if (horaInicio && horaFin) {
+      const inicio = new Date(horaInicio);
+      const fin = new Date(horaFin);
+      const duracionHoras = differenceInHours(fin, inicio);
+
+      if (duracionHoras > 12 || duracionHoras < 0) {
+        return NextResponse.json({ error: "El rango horario no puede exceder 12 horas" }, { status: 400 });
+      }
+      if (isAfter(ahora, fin)) {
+        return NextResponse.json({ error: "El rango horario ya expiró" }, { status: 400 });
+      }
+      expiraAt = fin;
+    } else {
+      expiraAt = addMinutes(ahora, 90);
+    }
+
+    const incidencia = await prisma.incidencia.create({
+      data: {
+        tipo, descripcion, lat, lng,
+        horaInicio: horaInicio ? new Date(horaInicio) : null,
+        horaFin: horaFin ? new Date(horaFin) : null,
+        expiraAt,
+      },
+      select: { id: true, tipo: true, descripcion: true, lat: true, lng: true, horaInicio: true, horaFin: true, expiraAt: true, creadoEn: true },
+    });
+
     return NextResponse.json(incidencia, { status: 201 });
   } catch (error) {
+    if (error instanceof z.ZodError) {
+      return NextResponse.json({ error: error.errors[0]?.message || "Datos inválidos" }, { status: 400 });
+    }
+    console.error("API Error:", error);
     return NextResponse.json({ error: "Error al crear incidencia" }, { status: 500 });
   }
 }
@@ -35,15 +68,19 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: "Bounds inválidos" }, { status: 400 });
     }
 
-    // Filter mock incidencias by bounds if provided
-    let filteredIncidencias = mockIncidencias;
-    if ([north, south, east, west].every(v => !isNaN(v) && v !== 0)) {
-      filteredIncidencias = mockIncidencias.filter(i => 
-        i.lat >= south && i.lat <= north && i.lng >= west && i.lng <= east
-      );
-    }
+    const ahora = new Date();
+    const incidencias = await prisma.incidencia.findMany({
+      where: {
+        expiraAt: { gt: ahora },
+        lat: { gte: south, lte: north },
+        lng: { gte: west, lte: east },
+      },
+      orderBy: { creadoEn: "desc" },
+      take: 200,
+      select: { id: true, tipo: true, descripcion: true, lat: true, lng: true, horaInicio: true, horaFin: true, expiraAt: true, creadoEn: true },
+    });
 
-    return NextResponse.json(filteredIncidencias);
+    return NextResponse.json(incidencias);
   } catch (error) {
     console.error("API Error:", error);
     return NextResponse.json({ error: "Error interno" }, { status: 500 });
