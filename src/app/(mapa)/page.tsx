@@ -16,7 +16,7 @@ export default function HomePage() {
   return (
     <>
       <MapaCliente />
-      <div className="absolute top-11 left-0 right-0 bottom-0 z-10">
+      <div className="absolute top-11 left-0 right-0 bottom-0 z-10 pointer-events-none">
         <FiltrosMapa />
         <LeyendaMapa />
       </div>
