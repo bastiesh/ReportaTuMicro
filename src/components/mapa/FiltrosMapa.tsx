@@ -18,7 +18,7 @@ export function FiltrosMapa() {
   };
 
   return (
-    <div className="absolute top-14 left-3 z-[10000] bg-white/95 dark:bg-gray-900/95 backdrop-blur-md rounded-2xl shadow-xl p-3.5 min-w-[170px] border border-gray-100 dark:border-gray-800">
+    <div className="absolute top-14 left-3 z-[10000] bg-white/95 dark:bg-gray-900/95 backdrop-blur-md rounded-2xl shadow-xl p-3.5 min-w-[170px] border border-gray-100 dark:border-gray-800 pointer-events-auto">
       <p className="text-[10px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2.5">Capas</p>
       <button
         onClick={toggleParaderos}

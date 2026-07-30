@@ -21,7 +21,7 @@ export default async function ParaderoPage({ params }: { params: Promise<{ id: s
     : null;
 
   // Fetch paradero with routes from API
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/paraderos/${id}`, {
+  const res = await fetch(`/api/paraderos/${id}`, {
     cache: 'no-store',
   });
   const paraderoConRutas = res.ok ? await res.json() : paradero;
